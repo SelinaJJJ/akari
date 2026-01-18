@@ -30,45 +30,6 @@ The puzzle is solved when all corridors are lit, all clues are satisfied, and no
 |------------|---------------|
 | ![Game](docs/game.png) | ![Solved](docs/solved.png) |
 
-## Project Structure
-
-```
-akari/
-├── src/
-│   ├── main/
-│   │   ├── java/com/akari/game/
-│   │   │   ├── Main.java                 # Application entry point
-│   │   │   ├── SamplePuzzles.java        # Built-in puzzle definitions
-│   │   │   ├── model/                    # MVC Model layer
-│   │   │   │   ├── Model.java            # Model interface
-│   │   │   │   ├── ModelImpl.java        # Model implementation
-│   │   │   │   ├── ModelObserver.java    # Observer pattern interface
-│   │   │   │   ├── Puzzle.java           # Puzzle interface
-│   │   │   │   ├── PuzzleImpl.java       # Puzzle implementation
-│   │   │   │   ├── PuzzleLibrary.java    # Puzzle collection interface
-│   │   │   │   ├── PuzzleLibraryImpl.java# Puzzle collection implementation
-│   │   │   │   └── CellType.java         # Cell type enumeration
-│   │   │   ├── view/                     # MVC View layer
-│   │   │   │   ├── AppLauncher.java      # JavaFX application launcher
-│   │   │   │   ├── MainView.java         # Main view container
-│   │   │   │   ├── PuzzleView.java       # Puzzle grid display
-│   │   │   │   ├── ControlView.java      # Navigation controls
-│   │   │   │   ├── MessageView.java      # Timer and messages
-│   │   │   │   └── FXComponent.java      # UI component interface
-│   │   │   └── controller/               # MVC Controller layer
-│   │   │       ├── ClassicMvcController.java
-│   │   │       ├── AlternateMvcController.java
-│   │   │       └── ControllerImpl.java
-│   │   └── resources/
-│   │       ├── main.css                  # Application styles
-│   │       └── light-bulb.png            # Lamp icon
-│   └── test/
-│       └── java/com/akari/game/
-│           └── AppTest.java              # Unit tests
-├── pom.xml                               # Maven build configuration
-└── README.md
-```
-
 ## Architecture
 
 This project follows the **Model-View-Controller (MVC)** design pattern:
