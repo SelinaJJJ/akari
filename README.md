@@ -2,7 +2,7 @@
 
 A JavaFX implementation of the classic **Akari** (Light Up) logic puzzle game.
 
-![Akari Game Screenshot](docs/screenshot.png)
+![Akari Game Screenshot](docs/ss1.png)
 
 ## About the Game
 
@@ -28,7 +28,7 @@ The puzzle is solved when all corridors are lit, all clues are satisfied, and no
 
 | Game Board | Solved Puzzle |
 |------------|---------------|
-| ![Game](docs/game.png) | ![Solved](docs/solved.png) |
+| ![Game](docs/ss2.png) | ![Solved](docs/ss3.png) |
 
 ## Architecture
 
